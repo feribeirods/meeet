@@ -1,0 +1,350 @@
+@font-face {
+    font-family: inter;
+    src: url(../fonts/inter.woff);
+}
+
+@font-face {
+    font-family: sen;
+    src: url(../fonts/Sen-Bold.woff);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #013243;
+}
+
+header {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.container-titulo {
+    padding-inline: 100px;
+}
+
+.titulo {
+    font-family: sen;
+    font-weight: bolder;
+    font-size: 9rem;
+    color: #32F5C8;
+    margin-top: 50px; 
+}
+
+.titulo span {
+    font-size: 12rem;
+}
+
+.avatar3 {
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    z-index: -1;
+}
+
+.avatar5 {
+    position: absolute;
+    top: 100px;
+    right: 550px;
+    z-index: -1;
+}
+
+.avatar2 {
+    position: absolute;
+    top: 250px;
+    right: 200px;
+    z-index: -1;  
+}
+
+.avatar4 {
+    position: absolute;
+    top: 650px;
+    right: 350px;
+    z-index: -1;
+}
+
+.avatar1 {
+    position: absolute;
+    top: 440px;
+    right: 920px;
+    z-index: -1;
+}
+
+.index-d {
+    position: relative;
+    z-index: -2;
+}
+
+.container-texto {
+    width: 700px;
+    padding-inline: 100px;
+}
+
+.container-texto p {
+    font-family: inter;
+    font-size: 1.6rem;
+    color: #A9BDC6;
+    position: relative;
+    top: 50px;
+}
+
+.container-texto button {
+    height: 50px;
+    padding-inline: 10px;
+    font-size: 1.1rem;
+    font-family: sen;
+    background-color: #32F5C8;
+    border: none;
+    border-radius: 5px;
+    color: #013243;
+    position: relative;
+    top: 80px;
+    cursor: pointer;
+}
+
+.container-twitter {
+    display: flex;
+    padding-inline: 100px;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+.container-texto button:hover {
+    background-color: #8cffe4;
+    transition: .5s;
+}
+
+.container-twitter p {
+    font-family: inter;
+    margin-left: 15px;
+    color: #A9BDC6;
+    cursor: pointer;
+}
+
+.container-twitter img {
+    cursor: pointer;
+}
+
+.container-twitter p:hover {
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.container-twitter img:hover {
+    transform:rotateX(360deg);
+    transition: 2s;
+}
+
+@media only screen and (max-width: 900px) { 
+
+    header {
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    
+    .container-titulo {
+        padding-inline: 50px;
+    }
+    
+    .titulo {
+        font-family: sen;
+        font-weight: bolder;
+        font-size: 6rem;
+        color: #32F5C8;
+        position: relative;
+        top: 150px; 
+    }
+    
+    .titulo span {
+        font-size: 5.5rem;
+    }
+    
+    .avatar3 {
+        position: absolute;
+        top: 130px;
+        left: 50px;
+        z-index: -1;
+    }
+    
+    .avatar5 {
+        position: absolute;
+        top: 230px;
+        right: 50px;
+        z-index: -1;
+    }
+    
+    .avatar2 {
+        position: absolute;
+        top: 50px;
+        right: 250px;
+        z-index: -1;  
+    }
+    
+    .avatar4 {
+        position: absolute;
+        top: 750px;
+        right: 30px;
+        width: 200px;
+        z-index: -1;
+    }
+    
+    .avatar1 {
+        position: absolute;
+        top: 475px;
+        right: 320px;
+        z-index: -1;
+    }
+    
+    .container-texto {
+        width: 500px;
+        padding-inline: 50px;
+    }
+    
+    .container-texto p {
+        font-family: inter;
+        font-size: 1.6rem;
+        color: #A9BDC6;
+        position: relative;
+        top: 270px;
+    }
+    
+    .container-texto button {
+        height: 50px;
+        padding-inline: 10px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: sen;
+        background-color: #32F5C8;
+        border: none;
+        border-radius: 5px;
+        color: #013243;
+        position: relative;
+        top: 300px;
+        cursor: pointer;
+    }
+    
+    .container-twitter {
+        display: flex;
+        padding-inline: 50px;
+        align-items: center;
+        position: relative;
+        top: 500px;
+    }
+            
+    .container-twitter p {
+        font-family: inter;
+        font-size: 1.5rem;
+        margin-left: 15px;
+        color: #A9BDC6;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (max-width: 600px) { 
+
+    header img {
+        width: 120px;
+    }
+
+    header {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    
+    .container-titulo {
+        padding-inline: 20px;
+    }
+    
+    .titulo {
+        font-family: sen;
+        font-weight: bolder;
+        font-size: 3rem;
+        color: #32F5C8;
+        position: relative;
+        top: 150px; 
+    }
+    
+    .titulo span {
+        font-size: 2.8rem;
+    }
+    
+    .avatar3 {
+        position: absolute;
+        top: 110px;
+        left: 20px;
+        z-index: -1;
+    }
+    
+    .avatar5 {
+        display: none;
+    }
+    
+    .avatar2 {
+        position: absolute;
+        top: 120px;
+        right: 10px;
+        z-index: -1;  
+    }
+    
+    .avatar4 {
+        position: absolute;
+        top: 550px;
+        right: 20px;
+        z-index: -1;
+        width: 200px;
+    }
+    
+    .avatar1 {
+        display: none;
+    }
+    
+    .container-texto {
+        width: 350px;
+        padding-inline: 20px;
+    }
+    
+    .container-texto p {
+        font-family: inter;
+        font-size: 1.4rem;
+        color: #A9BDC6;
+        position: relative;
+        top: 180px;
+    }
+    
+    .container-texto button {
+        height: 50px;
+        padding-inline: 10px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: sen;
+        background-color: #32F5C8;
+        border: none;
+        border-radius: 5px;
+        color: #013243;
+        position: relative;
+        top: 230px;
+        cursor: pointer;
+    }
+    
+    .container-twitter {
+        display: flex;
+        padding-inline: 20px;
+        align-items: center;
+        position: relative;
+        top: 480px;
+    }
+            
+    .container-twitter p {
+        font-family: inter;
+        font-size: 1.2rem;
+        margin-left: 15px;
+        color: #A9BDC6;
+        cursor: pointer;
+    }
+
+}
